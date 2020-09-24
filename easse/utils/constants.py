@@ -51,5 +51,5 @@ SYSTEM_OUTPUTS_DIRS_MAP = {
 VALID_TEST_SETS = ['turkcorpus_test', 'turkcorpus_valid','turkcorpus_test_legacy', 'turkcorpus_valid_legacy',
                    'pwkp_test', 'pwkp_valid', 'hsplit_test', 'wikisplit_test', 'wikisplit_valid', 'asset_test',
                    'asset_valid', 'googlecomp_test', 'googlecomp_valid', 'qats_test', 'custom']
-VALID_METRICS = ['bleu', 'sari', 'samsa', 'fkgl', 'sent_bleu', 'f1_token', 'sari_legacy']
+VALID_METRICS = ['bleu', 'sari', 'samsa', 'fkgl', 'sent_bleu', 'f1_token', 'sari_legacy', 'sari_by_operation']
 DEFAULT_METRICS = ['bleu', 'sari', 'fkgl']
